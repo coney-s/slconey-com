@@ -4,6 +4,31 @@ body {
 
 .myNav {
     background-color: #4B6587;
+    opacity: 1;
+    
+}
+
+.myName {
+    padding: 0 0 0 7%;
+    font-size: 27px;
+    text-transform: uppercase;
+
+}
+
+.linkSpread {
+    margin: 0 5px;
+    font-size: 1.2rem;
+}
+
+.collapse {
+    padding-right: 10%;
+}
+
+#twitLink {
+    color: ghostwhite;
+}
+#faceLink{
+    color: ghostwhite;
 }
 
 body, html {
@@ -37,10 +62,79 @@ hr {
     padding-right: 4%;
 }
 
+/* About Page */
+
+.largeBio {
+    padding: 15% 0;
+}
+
+.authorPhoto {
+    height: 300px;
+    width: 300px;
+}
+
+.aPageHeader {
+    color: #C85C5C;
+    font-size: 4rem;
+    font-family: 'Montserrat-black', sans-serif;
+    padding-bottom: 5%;
+}
+
+.aboutText {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+}
+
+/* Publications */
+
+.bookPic {
+   height: 300px;
+   width: 200px;
+}
+
+.pubContainer {
+    padding-left: 7%;
+}
+
+.publicationContainer {
+    padding-bottom: 15%;
+}
+
+.pubRow {
+    margin: 10% 0;
+}
+
+.pubHeader {
+    color: #C85C5C;
+    font-size: 4rem;
+    font-family: 'Montserrat-black', sans-serif;
+    margin: 15% 0;
+    text-align: center;
+}
+
+.bookTitle {
+    font-family: 'Georama', sans-serif;
+    font-size: 2rem;
+    color: #4B6587;
+    letter-spacing: 1px;
+    padding-bottom:3%;
+}
+
+.pubDetails {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.256rem;
+}
+
 /* Footer */
 
+footer {
+    background-color: #4B6587;
+    
+}
+
 .social {
-    color: #4B6587;
+    color: ghostwhite;
     font-size: 1.5rem;
     text-align: center;
     padding-top: 2%;
@@ -50,20 +144,21 @@ hr {
 .social-link {
     margin: 20px 10px;
     display: inline-block;
-    color:#4B6587;
+    color:ghostwhite;
     
     
 }
 
 .cright{
-    color: #4B6587;
+    color: ghostwhite;
     text-align: center;
     padding: 2% 0 10%;
 }
 
 .contact {
-    color: #4B6587;
+    color: ghostwhite;
     text-align: center;
     font-family: 'Georama', sans-serif;
+    padding: 5% 0 0;
 }
 
