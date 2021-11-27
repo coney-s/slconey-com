@@ -2,80 +2,95 @@ window.addEventListener("load", function (){
     const myName = document.getElementById("brandName");
 
     myName.addEventListener("mouseover", function (event){
-        myName.style.color = "#91d9c9";
+        myName.style.color = "#FC997C";
+        myName.style.fontSize = "32px";
     })
 
     myName.addEventListener("mouseout", function(event) {
         myName.style.color = "ghostwhite";
+        myName.style.fontSize = "27px";
     })
 
     const about = document.getElementById("aboutLink");
 
     about.addEventListener("mouseover", function (event){
-        about.style.color = "#91d9c9";
+        about.style.color = "#FC997C";
+        about.style.fontSize = "1.5rem";
     })
 
     about.addEventListener("mouseout", function(event) {
         about.style.color = "ghostwhite";
+        about.style.fontSize = "1.2rem";
     })
 
     const pubs = document.getElementById("pubsLink");
 
     pubs.addEventListener("mouseover", function (event){
-        pubs.style.color = "#91d9c9";
+        pubs.style.color = "#FC997C";
+        pubs.style.fontSize = "1.5rem";
     })
 
     pubs.addEventListener("mouseout", function(event) {
         pubs.style.color = "ghostwhite";
+        pubs.style.fontSize = "1.2rem";
     })
 
     const face = document.getElementById("faceLink");
 
     face.addEventListener("mouseover", function (event){
-        face.style.color = "#91d9c9";
+        face.style.color = "#FC997C";
+        face.style.fontSize = "1.5rem";
     })
 
     face.addEventListener("mouseout", function(event) {
         face.style.color = "ghostwhite";
+        face.style.fontSize = "1.2rem";
     })
-
-    // const blog = document.getElementById("blogLink");
-
-    // blog.addEventListener("mouseover", function (event){
-    //     blog.style.color = "#91d9c9";
-    // })
-
-    // blog.addEventListener("mouseout", function(event) {
-    //     blog.style.color = "ghostwhite";
-    // })
 
     const contact = document.getElementById("contactLink");
 
     contact.addEventListener("mouseover", function (event){
-        contact.style.color = "#91d9c9";
+        contact.style.color = "#FC997C";
+        contact.style.fontSize = "1.5rem";
     })
 
     contact.addEventListener("mouseout", function(event) {
         contact.style.color = "ghostwhite";
+        contact.style.fontSize = "1.2rem";
     })
 
     const twit = document.getElementById("twitLink");
 
     twit.addEventListener("mouseover", function (event){
-        twit.style.color = "#91d9c9";
+        twit.style.color = "#FC997C";
+        twit.style.fontSize = "1.5rem";
     })
 
     twit.addEventListener("mouseout", function(event) {
         twit.style.color = "ghostwhite";
+        twit.style.fontSize = "1.2rem";
     })
 
-    const gram = document.getElementById("instant");
+    const reads = document.getElementById("good");
 
-    gram.addEventListener("mouseover", function(event){
-        gram.style.color = "#91d9c9";
+    reads.addEventListener("mouseover", function(event) {
+        reads.style.color="#FC997C";
+        reads.style.fontSize = "1.5rem";
+    })
+
+    reads.addEventListener("mouseout", function(event){
+        reads.style.color = "ghostwhite";
+        reads.style.fontSize = "1.2rem";
+    })
+
+    const gram = document.getElementById("instaLink");
+    gram.addEventListener("mouseover", function(event) {
+        gram.style.color = "#FC997C";
+        gram.style.fontSize = "1.5rem";
     })
 
     gram.addEventListener("mouseout", function(event) {
         gram.style.color = "ghostwhite";
+        gram.style.fontSize = "1.2rem";
     })
 })

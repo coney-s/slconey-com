@@ -31,6 +31,14 @@ body {
     color: ghostwhite;
 }
 
+#instaLink {
+    color: ghostwhite;
+}
+
+#good {
+    color: ghostwhite;
+}
+
 body, html {
     height: 100%;
 }
@@ -60,6 +68,39 @@ hr {
     font-size: 1rem;
     margin-left: 7%;
     padding-right: 4%;
+}
+
+/* Contact Form */
+
+.contactHeader {
+    color: #C85C5C;
+    font-size: 4rem;
+    font-family: 'Montserrat-black', sans-serif;
+    margin: 7% 0;
+    text-align: center;
+}
+
+.contactSection {
+   margin: 7% 20% 7% 27%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.256rem;
+}
+
+.formElement{
+    margin: 3% 0;
+    text-align: left;
+}
+
+textarea {
+    height: 300px;
+}
+
+input[type=text], input[type=email], input[type=textarea]{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    width: 700px;
+    margin: 3px 0;
 }
 
 /* About Page */
@@ -152,7 +193,7 @@ footer {
 .cright{
     color: ghostwhite;
     text-align: center;
-    padding: 2% 0 10%;
+    padding: 2% 0 5%;
 }
 
 .contact {
