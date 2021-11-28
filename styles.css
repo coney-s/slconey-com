@@ -72,8 +72,19 @@ hr {
 
 /* Contact Form */
 
+iframe{
+
+    color: #009DAE;
+    font-size: 4rem;
+    font-family: 'Montserrat-black', sans-serif;
+    margin: 7% 0;
+    text-align: center;
+    background-color: transparent;
+
+}
+
 .contactHeader {
-    color: #C85C5C;
+    color: #009DAE;
     font-size: 4rem;
     font-family: 'Montserrat-black', sans-serif;
     margin: 7% 0;
@@ -98,11 +109,28 @@ textarea {
 input[type=text], input[type=email], input[type=textarea]{
     background: transparent;
     border: none;
-    border-bottom: 1px solid #000000;
+    border-bottom: 2px solid #000000;
     width: 700px;
     margin: 3px 0;
 }
 
+.red {
+    color: red;
+}
+
+.btn {
+    background-color: #4B6587;
+    color: ghostwhite;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.256rem;
+    margin: 3% 40% 0;
+}
+
+.info {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1;
+    color: red;
+}
 /* About Page */
 
 .largeBio {
@@ -115,7 +143,7 @@ input[type=text], input[type=email], input[type=textarea]{
 }
 
 .aPageHeader {
-    color: #C85C5C;
+    color: #009DAE;
     font-size: 4rem;
     font-family: 'Montserrat-black', sans-serif;
     padding-bottom: 5%;
@@ -146,7 +174,7 @@ input[type=text], input[type=email], input[type=textarea]{
 }
 
 .pubHeader {
-    color: #C85C5C;
+    color: #009DAE;
     font-size: 4rem;
     font-family: 'Montserrat-black', sans-serif;
     margin: 15% 0;

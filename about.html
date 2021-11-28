@@ -127,24 +127,25 @@
     <div class="container">
         <hr>
     </div>  
-
     <article>
         <h1 class="contactHeader" id="contact">Contact Me</h1>
         <div class="contactSection" id="contactId">
+            <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfKK8Tzg-Uv1MHQ74C4WGJoHx1NciTghEepDPpmagPqt4iZ6A/viewform?embedded=true" width="640" height="947" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
+            <p class="info">Fields marked with * are required</p>
             <form action="" method="POST">
-                <label class= "formElement" for="inqName">*Name: <br>
+                <label class= "formElement" for="inqName"><span class="red">*</span> Name: <br>
                     <input type="text" id="inqName" name="userName">
                 </label><br>
-                <label class= "formElement" for="contactEmail">*Email: <br>
+                <label class= "formElement" for="contactEmail"><span class="red">*</span> Email: <br>
                     <input type="email" id="contactEmail" name="userEmail">
                 </label><br>
-                <label class= "formElement" for="subject">*Subject: <br>
+                <label class= "formElement" for="subject"><span class="red">*</span> Subject: <br>
                     <input type="text" id="subject" name="userSubject">
                 </label><br>
-                <label class= "formElement" for="message">*Message: <br>
+                <label class= "formElement" for="message"><span class="red">*</span> Message: <br>
                     <input type="textarea" id="message" name="userMessage">
                 </label><br>
-                <input class= "formElement" type="submit" value="Submit">
+                <input class= "formElement btn" type="submit" value="Submit">
             </form>
         </div>
     </article>
@@ -169,9 +170,6 @@
             <div class="social-link">
                 <a href="https://www.goodreads.com/author/show/20550427.S_L_Coney"><i class="fab fa-goodreads"
                         style="color: ghostwhite"></i></a>
-            </div>
-            <div class="social-link">
-                <a href=""><i class="fas fa-envelope" style="color: ghostwhite"></i></i></a>
             </div>
         </div>
 
