@@ -96,4 +96,8 @@ window.addEventListener("load", function (){
         gram.style.color = "ghostwhite";
         gram.style.fontSize = "1.2rem";
     })
+
+    // Form Submission
+
+    
 })
