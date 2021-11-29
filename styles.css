@@ -236,3 +236,12 @@ footer {
     padding: 5% 0 0;
 }
 
+/* Error Page */
+
+.oops {
+    margin: 50%;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    /* width: 40%; */
+    font-size: 4rem;
+}
