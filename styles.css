@@ -97,7 +97,8 @@ iframe{
 }
 
 .contactSection {
-   margin: 7% 20% 7% 27%;
+   /* margin: 7% 20% 7% 27%; */
+   margin: 7% 15%;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.256rem;
 }
@@ -234,6 +235,10 @@ footer {
     text-align: center;
     font-family: 'Georama', sans-serif;
     padding: 5% 0 0;
+}
+
+.aForm{
+    width: 100%;
 }
 
 /* Error Page */
