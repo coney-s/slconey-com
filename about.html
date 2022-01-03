@@ -54,10 +54,10 @@
             emailjs.sendForm('service_n4u168k', 'contact_form', this)
                 .then(function() {
                     console.log('SUCCESS!');
-                    sentMessage.innerHTML("Message Sent");
+                    sentMessage.innerHTML("Message Sent!");
                 }, function(error) {
                     console.log('FAILED...', error);
-                    sentMessage.innerHTML("Oops something went wrong!");
+                    sentMessage.innerHTML("Oops! Something went wrong.");
                 });
         });
     }
@@ -186,7 +186,7 @@
                 <input class= "formElement btn" type="submit" id="submit-form" value="Send">
                 
             </form>
-            <p id="sent"></p>
+            <p id="sent">Status: </p>
                 
               </form>
         </div>
