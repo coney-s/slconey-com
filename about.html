@@ -43,8 +43,9 @@
     })();
 </script>
 <script type="text/javascript">
+
     window.onload = function() {
-        let errors = document.getElementById('errors');
+        let sentMessage = document.getElementById('sent');
         document.getElementById('contact-form').addEventListener('submit', function(event) {
             event.preventDefault();
             // generate a five digit number for the contact_number variable
@@ -53,10 +54,10 @@
             emailjs.sendForm('service_n4u168k', 'contact_form', this)
                 .then(function() {
                     console.log('SUCCESS!');
-                    errors.innerHTML("Message Sent");
+                    sentMessage.innerHTML("Message Sent");
                 }, function(error) {
                     console.log('FAILED...', error);
-                    errors.innerHTML("Oops something went wrong!");
+                    sentMessage.innerHTML("Oops something went wrong!");
                 });
         });
     }
@@ -183,9 +184,9 @@
                
                 
                 <input class= "formElement btn" type="submit" id="submit-form" value="Send">
-                <p id="errors"></p>
+                
             </form>
-            <form action="?" method="POST">
+            <p id="sent"></p>
                 
               </form>
         </div>
