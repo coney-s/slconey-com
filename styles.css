@@ -241,6 +241,14 @@ footer {
     width: 100%;
 }
 
+#sent {
+    color: red;
+    font-size: 2rem;
+    
+}
+
+
+
 /* Error Page */
 
 .oops {
