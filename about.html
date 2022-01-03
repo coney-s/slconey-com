@@ -44,6 +44,7 @@
 </script>
 <script type="text/javascript">
     window.onload = function() {
+        let errors = document.getElementById('errors');
         document.getElementById('contact-form').addEventListener('submit', function(event) {
             event.preventDefault();
             // generate a five digit number for the contact_number variable
@@ -52,8 +53,10 @@
             emailjs.sendForm('service_n4u168k', 'contact_form', this)
                 .then(function() {
                     console.log('SUCCESS!');
+                    errors.innerHTML("Message Sent");
                 }, function(error) {
                     console.log('FAILED...', error);
+                    errors.innerHTML("Oops something went wrong!");
                 });
         });
     }
@@ -161,9 +164,7 @@
     <article class="aForm">
         <h1 class="contactHeader" id="contact">Contact Me</h1>
         <div class="contactSection container" id="contactId">
-            <!-- <p class="info">Fields marked with * are required</p> -->
             <div class="container" id="ff-compose"></div>
-        <!-- <script class="container aForm" async defer src="https://formfacade.com/include/118197775013312374459/form/1FAIpQLSfKK8Tzg-Uv1MHQ74C4WGJoHx1NciTghEepDPpmagPqt4iZ6A/bootstrap.js?div=ff-compose"></script> -->
             <p class="info">Fields marked with * are required</p>
             <form id="contact-form">
                 <input type="hidden" name="contact_number">
@@ -173,12 +174,8 @@
                 <label class= "formElement" for="contactEmail"><span class="red">*</span> Email: <br>
                     <input type="email" id="contactEmail" name="user_email">
                 </label><br>
-                <!-- <label class= "formElement" for="subject"><span class="red">*</span> Subject: <br>
-                    <input type="text" id="subject" name="subject"> -->
-                <!-- </label><br> -->
                 <label class= "formElement" for="message"><span class="red">*</span> Message: <br>
                     <input type="textarea" id="message" name="message">
-                    <!-- <textarea  id="userMessage" name="message"></textarea> -->
                 </label><br>
 
                 <div class="g-recaptcha" data-sitekey="6LeRQ-cdAAAAAHLNGHSscLJf6BvIYQ0JjThG2_Og"></div>
@@ -186,6 +183,7 @@
                
                 
                 <input class= "formElement btn" type="submit" id="submit-form" value="Send">
+                <p id="errors"></p>
             </form>
             <form action="?" method="POST">
                 
