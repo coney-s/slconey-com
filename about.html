@@ -54,10 +54,10 @@
             emailjs.sendForm('service_n4u168k', 'contact_form', this)
                 .then(function() {
                     console.log('SUCCESS!');
-                    document.getElementById('sent').innerHTML("Message Sent!");
+                    document.getElementById('sent').innerHTML = "Message Sent!";
                 }, function(error) {
                     console.log('FAILED...', error);
-                    document.getElementById('sent').innerHTML("Oops! Something went wrong.");
+                    document.getElementById('sent').innerHTML = "Oops! Something went wrong.";
                 });
         });
     }
