@@ -98,7 +98,158 @@ window.addEventListener("load", function (){
         gram.style.fontSize = "1.5rem";
     })
 
-    // Form Submission
+    // About Page animation
+
+    const hola = document.getElementById("hello");
+
+
+    hola.addEventListener("mouseover", function (event) {
+        hola.innerHTML = "Author";
+        hola.style.color = "#A6F0C6";
+        hola.style.paddingLeft = "20%";
+    })
+
+    hola.addEventListener("mouseout", function (event) {
+        hola.innerHTML = "Hello,";
+        hola.style.color = "ghostwhite";
+        hola.style.paddingLeft = "0";
+    })
+
+    const isMe = document.getElementById("me");
+
+    isMe.addEventListener("mouseover", function (event) {
+        isMe.innerHTML = "of the";
+        isMe.style.color = "#A6F0C6";
+        isMe.style.paddingLeft = "20%";
+    })
+
+    isMe.addEventListener("mouseout", function (event) {
+        isMe.innerHTML = "I'm";
+        isMe.style.color = "ghostwhite";
+        isMe.style.paddingLeft = "0";
+    })
+
+    const alsoMe = document.getElementById("aName");
+
+    alsoMe.addEventListener("mouseover", function (event) {
+        alsoMe.innerHTML = "Weird";
+        alsoMe.style.paddingLeft = "20%";
+    })
+
+    alsoMe.addEventListener("mouseout", function (event) {
+        alsoMe.innerHTML = "Shaw";
+        alsoMe.style.paddingLeft = "0";
+    })
+
+    // Trial Animation
+
+    let helloText = ["Author", "Hello,"];
+    let counter = 0;
+
+    let inst = setInterval(change, 2000);
+
+    function change() {
+        hola.classList.add('fade');
+        // hola.style.color = "#A6F0C6";
+        // hola.style.paddingLeft = "20%";
+
+        setTimeout(function () {
+            hola.innerHTML = helloText[counter];
+
+            if (hola.innerHTML === "Author") {
+                hola.style.color = "#A6F0C6";
+                hola.style.paddingLeft = "20%";
+            } else {
+                hola.style.color = "ghostwhite";
+                hola.style.paddingLeft = "0";
+            }
+            hola.classList.remove('fade');
+            counter++;
+            if (counter >= helloText.length) {
+                counter = 0;
+            }
+        }, 500);
+
+        if ((hola.innerHTML === "Hello,") && (isMe.innerHTML === "I'm") && (alsoMe.innerHTML === "Weird")) {
+            window.clearInterval(inst);
+            window.clearInterval(inst2);
+            window.clearInterval(inst3);
+
+        }
+
+    }
+
+    let meText = ["of the", "I'm"];
+    let counter2 = 0;
+
+    let inst2 = setInterval(change2, 2100);
+
+    function change2() {
+        isMe.classList.add('fade');
+
+        setTimeout(function () {
+            isMe.innerHTML = meText[counter2];
+
+            if (isMe.innerHTML === "of the") {
+                isMe.style.color = "#A6F0C6";
+                isMe.style.paddingLeft = "20%";
+            } else {
+                isMe.style.color = "ghostwhite";
+                isMe.style.paddingLeft = "0";
+            }
+
+            isMe.classList.remove('fade');
+            counter2++;
+            if (counter2 >= helloText.length) {
+                counter2 = 0;
+            }
+        }, 500);
+
+        if ((hola.innerHTML === "Hello,") && (isMe.innerHTML === "I'm") && (alsoMe.innerHTML === "Weird")) {
+            window.clearInterval(inst);
+            window.clearInterval(inst2);
+            window.clearInterval(inst3);
+
+        }
+    }
+
+    let meAlsoText = ["Weird", "Shaw"];
+    let counter3 = 0;
+
+    let inst3 = setInterval(change3, 2300); //2250
+    function change3() {
+        alsoMe.classList.add('fade');
+
+        setTimeout(function () {
+            alsoMe.innerHTML = meAlsoText[counter3];
+
+            if (alsoMe.innerHTML === "Weird") {
+                alsoMe.style.paddingLeft = "20%";
+            } else {
+                alsoMe.style.paddingLeft = "0";
+            }
+
+            alsoMe.classList.remove('fade');
+            counter3++;
+            if (counter3 >= meAlsoText.length) {
+                counter3 = 0;
+            }
+        }, 500);
+
+        if ((hola.innerHTML === "Hello,") && (isMe.innerHTML === "I'm") && (alsoMe.innerHTML === "Weird")) {
+            window.clearInterval(inst);
+            window.clearInterval(inst2);
+            window.clearInterval(inst3);
+
+        }
+
+        
+    }
 
     
+
+
+
 })
+
+    

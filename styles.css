@@ -256,6 +256,8 @@ input[type=text], input[type=email], input[type=textarea]{
 
 .largeBio {
     padding: 15% 0;
+    margin-left: 25%;
+    
 }
 
 .authorPhoto {
@@ -273,6 +275,41 @@ input[type=text], input[type=email], input[type=textarea]{
 .aboutText {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
+}
+
+/* Animation */
+
+.indexContainer {
+    padding-left: 20%;
+    margin-top: 20%;
+}
+
+.greetingHead {
+    margin: auto;
+    padding-left: 5%;
+}
+
+.greetings {
+    font-family: 'Georama', sans-serif;
+    text-align: left;
+    color: ghostwhite;
+    margin-top: 5%;
+    font-size: 6rem;
+    font-weight: bold;
+  
+}
+
+.myName-two {
+    font-family: 'Ephesis', cursive;
+    font-size: 7rem;
+    transition-property: color;
+    transition-duration: 4s;
+    color: ghostwhite;
+    font-weight: bold;
+}
+
+.myName-two:hover {
+    color: #A6F0C6;
 }
 
 /* Publications */
