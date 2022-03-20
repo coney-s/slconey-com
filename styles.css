@@ -332,7 +332,7 @@ input[type=text], input[type=email], input[type=textarea]{
 }
 
 .pubHeader {
-    color: #009DAE;
+    color: ghostwhite;
     font-size: 4rem;
     font-family: 'Montserrat-black', sans-serif;
     margin: 15% 0;
@@ -342,7 +342,7 @@ input[type=text], input[type=email], input[type=textarea]{
 .bookTitle {
     font-family: 'Georama', sans-serif;
     font-size: 2rem;
-    color: #4B6587;
+    color: ghostwhite;
     letter-spacing: 1px;
     padding-bottom:3%;
 }
