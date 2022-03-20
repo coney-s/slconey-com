@@ -3,7 +3,8 @@ window.addEventListener("load", function (){
 
     myName.addEventListener("mouseover", function (event){
         // myName.style.color = "#FC997C";
-        myName.style.color = "#B4FE98"
+        // Original green myName.style.color = "#B4FE98"
+        myName.style.color = "#A6F0C6"
         myName.style.fontSize = "32px";
         myName.innerHTML="Take Me Home"
     })
@@ -17,7 +18,7 @@ window.addEventListener("load", function (){
     const about = document.getElementById("aboutLink");
 
     about.addEventListener("mouseover", function (event){
-        about.style.color = "#B4FE98";
+        about.style.color = "#A6F0C6";
         about.style.fontSize = "1.5rem";
     })
 
@@ -29,7 +30,7 @@ window.addEventListener("load", function (){
     const pubs = document.getElementById("pubsLink");
 
     pubs.addEventListener("mouseover", function (event){
-        pubs.style.color = "#B4FE98";
+        pubs.style.color = "#A6F0C6";
         pubs.style.fontSize = "1.5rem";
     })
 
@@ -41,7 +42,7 @@ window.addEventListener("load", function (){
     const face = document.getElementById("faceLink");
 
     face.addEventListener("mouseover", function (event){
-        face.style.color = "#B4FE98";
+        face.style.color = "#A6F0C6";
         face.style.fontSize = "1.5rem";
     })
 
@@ -53,7 +54,7 @@ window.addEventListener("load", function (){
     const contact = document.getElementById("contactLink");
 
     contact.addEventListener("mouseover", function (event){
-        contact.style.color = "#B4FE98";
+        contact.style.color = "#A6F0C6";
         contact.style.fontSize = "1.5rem";
     })
 
@@ -65,7 +66,7 @@ window.addEventListener("load", function (){
     const twit = document.getElementById("twitLink");
 
     twit.addEventListener("mouseover", function (event){
-        twit.style.color = "#B4FE98";
+        twit.style.color = "#A6F0C6";
         twit.style.fontSize = "1.5rem";
     })
 
@@ -77,7 +78,7 @@ window.addEventListener("load", function (){
     const reads = document.getElementById("good");
 
     reads.addEventListener("mouseover", function(event) {
-        reads.style.color="#B4FE98";
+        reads.style.color="#A6F0C6";
         reads.style.fontSize = "1.5rem";
     })
 
@@ -88,7 +89,7 @@ window.addEventListener("load", function (){
 
     const gram = document.getElementById("instaLink");
     gram.addEventListener("mouseover", function(event) {
-        gram.style.color = "#B4FE98";
+        gram.style.color = "#A6F0C6";
         gram.style.fontSize = "1.5rem";
     })
 

@@ -1,9 +1,46 @@
+/* frame */
+
 body {
-    background-color: #F7F6F2;
-}
+    border-radius: 5px;
+    background-color: ghostwhite;
+    transition-property: background-color;
+    transition-duration: 4s;
+ }
+ 
+ .green {
+     transition-property: color;
+    transition-duration: 4s;
+ }
+ body:hover {
+     background-color: #A6F0C6;
+ }
+ 
+ body:hover .green {
+     color: #A6F0C6;
+ }
+ 
+ .green:hover {
+     color: #A6F0C6;
+ }
+ 
+ .pallet {
+     background-color: #010B13;
+     margin: 20px;
+     border-radius: 5px;
+ }
+ 
+ a, a:hover, a:focus, a:active {
+     text-decoration: none;
+     color: inherit;
+ }
+/* body {
+    /* Original color background-color: #F7F6F2;
+    background-color: #010B13;
+} */
 
 .myNav {
-    background-color: #4B6587;
+    /* Original blue color  background-color: #4B6587; */
+    background-color: #010B13;
     opacity: 1;
     
 }
@@ -55,6 +92,28 @@ hr {
 .hero {
     max-width: 100%;
     height: 50%;
+}
+
+/*News Section*/
+
+.news {
+    margin-top: 7%;
+    text-align: center;
+
+}
+
+.update {
+    text-align: center;
+    font-size: 4rem;
+    /* Original blue color: #009DAE; */ 
+    color: #A6F0C6;
+    margin-bottom: 3%;
+}
+
+.news-text {
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 3rem;
 }
 
 /* About Section Index */
