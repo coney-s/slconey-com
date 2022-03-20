@@ -6,7 +6,7 @@ window.addEventListener("load", function (){
         // Original green myName.style.color = "#B4FE98"
         myName.style.color = "#A6F0C6"
         myName.style.fontSize = "32px";
-        myName.innerHTML="Take Me Home"
+        myName.innerHTML="Home"
     })
 
     myName.addEventListener("mouseout", function(event) {
