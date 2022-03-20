@@ -23,6 +23,24 @@ body {
      color: #A6F0C6;
  }
 
+ .white {
+    transition-property: color;
+   transition-duration: 4s;
+}
+
+
+body:hover .white {
+    color: ghostwhite;
+}
+
+.white:hover {
+    color: ghostwhite;
+}
+
+.white {
+    color: #A6F0C6
+}
+
  .reverse-green {
      transition-property: color;
      transition-property: background-color;
@@ -95,7 +113,7 @@ body, html {
 }
 
 hr {
-    border: 1px solid ghostwhite;
+    border: 1px solid #A6F0C6;
     opacity: .2;
 }
 
