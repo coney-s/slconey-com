@@ -13,6 +13,7 @@ body {
  }
  body:hover {
      background-color: #A6F0C6;
+   
  }
  
  body:hover .green {
@@ -139,7 +140,7 @@ hr {
 .update {
     text-align: center;
     font-size: 4rem;
-    /* Original blue color: #009DAE; */ 
+    /* Original blue color: #009DAE; */
     color: ghostwhite;
     margin-bottom: 3%;
     font-weight:bold;
@@ -151,13 +152,29 @@ hr {
     line-height: 3rem;
 }
 
+.announce-header {
+    color: #A6F0C6;
+    margin-bottom: 3%;
+}
+
+.announce {
+    line-height: 2.5rem;
+}
+
+.announce-text {
+    font-size: 1.1rem;
+}
+
 .btn {
     padding: 14px 40px;
     background-color: #A6F0C6;
     font-size: 20px;
     color: black;
     font-weight: bold;
+    margin-top: 30%;
 }
+
+
 
 /* Otherworks */
 
@@ -182,7 +199,7 @@ hr {
 
 .small-bio {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.256rem;
+    font-size: 1.1rem;
     margin-left: 7%;
     padding-right: 4%;
     line-height: 2.5rem;
