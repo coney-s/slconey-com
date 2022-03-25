@@ -44,7 +44,7 @@
     <script type="text/javascript">
         (function() {
             // https://dashboard.emailjs.com/admin/integration
-            emailjs.init("EMAILAPI");
+            emailjs.init("EMAILUID");
         })();
     </script>
     <script type="text/javascript">
@@ -56,7 +56,7 @@
                 // generate a five digit number for the contact_number variable
                 this.contact_number.value = Math.random() * 100000 | 0;
                 // these IDs from the previous steps
-                emailjs.sendForm('service_n4u168k', 'contact_form', this)
+                emailjs.sendForm('emailServiceID', 'contact_form', this)
                     .then(function() {
                         console.log('SUCCESS!');
                         document.getElementById('sent').innerHTML = "Message Sent!";
@@ -303,7 +303,7 @@
                     <input type="textarea" id="message" name="message">
                 </label><br>
 
-                <div class="g-recaptcha" data-sitekey="6LeRQ-cdAAAAAHLNGHSscLJf6BvIYQ0JjThG2_Og"></div>
+                <div class="g-recaptcha" data-sitekey="CAPTCHAHTML"></div>
                 <br/>
                
                 
