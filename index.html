@@ -77,12 +77,15 @@
 
 </head>
 
-<body>
+<body id="base">
+    <div class="pallet">
+    <div class="container-fluid">
+
 
     <div class="container-fluid myNav">
 
-        <nav class="navbar navbar-expand-lg navbar-dark myNav py-0 fixed-top">
-            <a class="navbar-brand myName" id="brandName" href="index.html">sl coney</a>
+        <nav class="navbar navbar-expand-lg navbar-dark myNav py-0">
+            <a class="navbar-brand myName" id="brandName" href="index.html">s. l. coney</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
                 aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -103,7 +106,7 @@
                         <a class="nav-link" id="faceLink" href="https://www.facebook.com/authorslconey"><i class="fab fa-facebook"></i></a>
                     </li>
                     <li class="nav-item linkSpread">
-                        <a class="nav-link" id="twitLink" href="https://twitter.com/rockconey01"><i class="fab fa-twitter green"></i></a>
+                        <a class="nav-link" id="twitLink" href="https://twitter.com/rockconey01"><i class="fab fa-twitter"></i></a>
                     </li>
                     <li class="nav-item linkSpread">
                         <a class="nav-link" id="instaLink" href="https://www.instagram.com/s_l_coney/"><i class="fab fa-instagram"></i></a>
@@ -117,22 +120,94 @@
         </nav>
 
     </div>
-    <div class="greetings">
+    <!-- <div class="greetings">
         <img class="img-fluid" src="resources/slconey2.png">
+    </div> -->
+
+    <div class="container container-fluid news">
+        <div class="row">
+            <div class="col-6 container-fluid">
+                <!-- <h2 class="update"><span class="white" style="font-size: 50px;"><sup>&#10031;</sup></span><span class="green"> News</span><span class="white" style="font-size: 50px;"> <sup>&#10031;</sup></span></h2>
+                <p class="news-text">
+                    I'm <span class="green">thrilled</span> to announce that my <span class="green">debut</span> novella<br> <span class="green"><em>Wild Spaces</em></span> <br>will be released 
+                    in <span class="green">2023</span> from<br> <span class="green">Tordotcom</span> Publications!
+                    
+                </p> -->
+                
+                <img class="img-fluid tor" src="resources/tor-photo.jpeg">
+                <button class="btn reverse-green" onclick="document.location='https://www.tor.com/2022/03/16/book-announcements-wild-spaces-by-s-l-coney/'" target="_blank">Read More</button>
+            </div>
+
+            <div class="col-6 container-flluid">
+                <h2 class="announce-header white">Book Announcement</h2>
+                <h5 class="announce">
+                    I'm <span class="green">thrilled</span> to announce that my debut novella <span class="green"><em>Wild Spaces</em></span>
+                    is forthcoming from <span class="green">Tordotcom</span> Publishing. Look for it in <span class="green">2023</span>!
+                </h5>
+                <p class="announce-text">
+                    An eleven-year-old boy has spent an idyllic childhood exploring 
+                    the humid coasts and wetlands of <span class="green">South Carolina</span> alongside his 
+                    parents and their dog Teach. But when the boy’s eerie and estranged grandfather 
+                    shows up with no warning, cracks begin to form as hidden <span class="green">secrets</span> resurface 
+                    that his parents refuse to explain.
+                    <br>
+                    <br>
+                    The longer his grandfather outstays his welcome, the more the boy feels something 
+                    within him changing—physically—into something his grandfather welcomes and 
+                    his mother fears. Something abyssal. Something <span class="green">monstrous</span>.
+                    <br>
+                    <br>
+                    A foreboding coming-of-age story as rich and humid as the Carolina coast 
+                        in which the corrosive nature of family secrets and toxic relatives assume 
+                        <span class="green">eldritch</span> proportions.
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-6 container-fluid">
+                    <p class="about-the-book">
+                        <br>
+                    <br>
+                    
+                    </p>
+                </div>
+                <div class="col-6 container-fluid">
+                    <p class="about-the-book">
+                        <br>
+                        <br>
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+
+
+
+
+    <div class="container">
+        <hr>
+    </div>
+    <div class="container-fluid otherWorks">
+        <h1 class="contactHeader green">Other Works</h1>
+        <img class="img-fluid works" src="resources/Works.png">
     </div>
 
     <div class="container">
         <hr>
     </div>  
     <div class="about">
+        <h1 class="contactHeader green">Bio</h1>
         <div class="container container-fluid">
             <div class="row">
                 <div class="col-8 container-fluid">
-                    <p class="small-bio">S. L. Coney obtained a master’s degree in clinical psychology before abandoning
+                    <p class="small-bio">S. L. Coney obtained a master’s degree in clinical <span class="green">psychology</span> before <span class="green">abandoning</span>
                         academia to pursue writing. In addition to making up stories, they tutor students in software
-                        development and mentor them in preparation for jobs in tech. Shaw has ties to South Carolina,
-                        roots in St. Louis, and are still deeply disappointed their fins never grew in. Shaw’s work has
-                        appeared in St. Louis Noir, Best American Mystery Stories 2017, and Gamut Magazine.</p>
+                        development and mentor them in preparation for jobs in <span class="green">tech</span>. Shaw has ties to <span class="green">South Carolina</span>,
+                        roots in St. Louis, and are still deeply disappointed their <span class="green">fins</span> never grew in. Shaw’s work has
+                        appeared in St. Louis Noir, <span class="green">Best American Mystery Stories 2017</span>, and Gamut Magazine. Their novella <span class="green"> <em>Wild Spaces</em></span> is forthcoming in 2023 from
+                    <span class="green">Tordotcom</span> Publishing.</p>
 
                 </div>
                 <div class="col-4 container container-fluid">
@@ -156,11 +231,12 @@
 
                         .gr_review_stats {}
                     </style>
-                    <a style="font-size: 1.3em; color: #382110; text-decoration: none;"
+                    <a style="font-size: 1.3em; color: #A6F0C6; text-decoration: none; margin-bottom: 5%;"
                         href="https://www.goodreads.com/author/show/20550427.S_L_Coney?utm_medium=api&utm_source=author_widget">S.L.
                         Coney's books on Goodreads</a>
                     <div id="gr_author_widget_1637302354">
                         <!-- Include static html in case javascript is not supported. This will be overridden if things are working. -->
+                        <br>
                         <div class="gr_container">
 
                             <div class="gr_book_container">
@@ -211,7 +287,7 @@
 
     
     <article class="aForm">
-        <h1 class="contactHeader" id="contact">Contact Me</h1>
+        <h1 class="contactHeader green" id="contact">Contact Me</h1>
         <div class="contactSection container container-fluid" id="contactId">
             <div class="container container-fluid" id="ff-compose"></div>
             <p class="info">Fields marked with * are required</p>
@@ -231,10 +307,10 @@
                 <br/>
                
                 
-                <input class= "formElement btn" type="submit" id="submit-form" value="Send">
+                <input class= "formElement btn reverse-green form-button" type="submit" id="submit-form" value="Send">
                 
             </form>
-            <p id="sent">Status: </p>
+            <p id="sent" class="status" style="font-size:1;">Status: </p>
                 
               </form>
         </div>
@@ -242,14 +318,14 @@
 
     <footer id="footer">
 
-        <h1 class="contact">Follow Me</h1>
+        <h1 class="contact green">Follow Me</h1>
 
         <div class="social">
             <div class="social-link">
                 <a href="https://twitter.com/rockconey01"><i class="fab fa-twitter green" style="color: ghostwhite"></i></a>
             </div>
             <div class="social-link">
-                <a href="https://www.facebook.com/authorslconey"><i class="fab fa-facebook" style="color: ghostwhite"></i></a>
+                <a href="https://www.facebook.com/authorslconey"><i class="fab fa-facebook green" style="color: ghostwhite"></i></a>
             </div>
             <div class="social-link">
                 <a href="https://www.instagram.com/s_l_coney/"><i class="fab fa-instagram green" style="color: ghostwhite"></i></a>
@@ -260,7 +336,7 @@
         </div>
 
         <p class="cright">© Copyright <span class="green">2021 - 2022</span> S.L. Coney, All Rights Reserved. <br>
-            Tentacles by <a href = "https://www.istockphoto.com/portfolio/IADA?mediatype" style="color:ghostwhite; text-decoration: underline;;">IADA</a></p>
+           
         <p class="credit"></p>
 
     </footer>
@@ -273,6 +349,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
         integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
     </script>
+    </div>
 </body>
 
 </html>

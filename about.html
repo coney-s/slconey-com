@@ -73,10 +73,12 @@
 
 </head>
 
-<body>
+<body id="base">
+    <div class="pallet">
+    <div class="container-fluid">
     <div class="container-fluid myNav">
 
-        <nav class="navbar navbar-expand-lg navbar-dark myNav py-0 fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark myNav py-0">
             <a class="navbar-brand myName" id="brandName" href="index.html">sl coney</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
                 aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -101,7 +103,7 @@
                     </li>
                     <li class="nav-item linkSpread">
                         <a class="nav-link" id="twitLink" href="https://twitter.com/rockconey01"><i
-                                class="fab fa-twitter green"></i></a>
+                                class="fab fa-twitter"></i></a>
                     </li>
                     <li class="nav-item linkSpread">
                         <a class="nav-link" id="instaLink" href="https://www.instagram.com/s_l_coney/"><i
@@ -118,43 +120,57 @@
 
     </div>
 
+    <div class="container indexContainer container-fluid">
+        <div class=row>
+            <div class="col-lg-6 photo">
+                <img src="./resources/authorphoto.jpeg" alt="A picture of the author looking to the left.">
+
+            </div>
+           <div class="col-lg-6 greetingHead">
+            <h1 class="greetings" id="hello">Hello,</h1>
+            <h1 class="greetings" id="me">I'm </h1>
+            <H1 class="greetings"><span class="myName-two green" id="aName">Shaw</span></h1>      
+            </div> 
+        </div>
+        </div>
+
 
 
     <div class="container largeBio">
         <div class="row">
-            <div class="col-lg-4">
-                <img class="authorPhoto" src="resources/authorphoto.jpeg" alt="A photo of the author">
-                <p class="attribution">Photo courtesy of C. Oaks Photography</p>
-            </div>
+            <!-- <div class="col-lg-4">
+                <img class="authorPhoto" src="resources/authorphoto.jpeg" alt="A photo of the author"> -->
+                <!-- <p class="attribution">Photo courtesy of C. Oaks Photography</p>
+            </div> -->
             <div class="col-lg-8">
-                <h1 class="aPageHeader">Shaw L. Coney</h1>
+                <!-- <h1 class="aPageHeader">Shaw L. Coney</h1> -->
                 <p class="aboutText">
-                    S.L. Coney’s short story “Abandoned Places” was selected for 2017’s <em>Best American Mystery Stories</em>
-                    and their story “Prey” was listed as one of the strongest new works at <em>Gamut Magazine</em> by Ellen
-                    Datlow.
+                    S.L. Coney’s short story <span class="green">“Abandoned Places”</span> was selected for 2017’s <em>Best American Mystery Stories</em>
+                    and their story <span class="green">“Prey”</span> was listed as one of the strongest new works at <em>Gamut Magazine</em> by Ellen
+                    <span class="green">Datlow</span>.
                 </p>
                 <p class="aboutText">
-                    They grew up in a family of artists and scientists. Their father, a biologist, had a habit of
-                    bringing interesting things home from work: a frog dissection kit—put to use on the kitchen table
+                    They grew up in a family of artists and scientists. Their father, a <span class="green">biologist</span>, had a habit of
+                    bringing interesting things home from work: a frog dissection kit—put to use on the <span class="green">kitchen</span> table
                     much to Shaw’s mother’s displeasure—a stunned screech owl that was rehabilitated in the home, and a
-                    bucketful of laboratory mice, one of which bit Shaw. Sadly, Shaw did not develop superpowers.
+                    <span class="green">bucketful</span> of laboratory mice, one of which bit Shaw. Sadly, Shaw did not develop <span class="green">superpowers</span>.
                 </p>
                 <p class="aboutText">
-                    They skipped most of high school, studied psychology and theater in college, and obtained a master’s
-                    degree in clinical psychology before running away from academia to become a writer. They’ve worked a
-                    series of odd jobs including door-to-door knife salesperson, graduate research mentor, and comedy
-                    sketch writer for a variety stage show that never got off the ground.
+                    They skipped most of high school, studied <span class="green">psychology</span> and theater in college, and obtained a master’s
+                    degree in clinical psychology before running <span class="green">away</span> from academia to become a <span class="green">writer</span>. They’ve worked a
+                    series of odd jobs including door-to-door knife salesperson, graduate research <span class="green">mentor</span>, and comedy
+                    <span class="green">sketch</span> writer for a variety stage show that never got off the ground.
                 </p>
                 <p class="aboutText">
-                    During the pandemic Shaw learned to code and now puts some of their creative energy into
+                    During the pandemic, Shaw learned to <span class="green">code</span> and now puts some of their <span class="green">creative</span> energy into
                     building applications and webpages. Their other creative endeavors involve music and yarn, but
-                    writing fiction is what they love best. They are a co-founder of an online writers’ group obsessed
-                    with all things weird, dark, and beautiful.
+                    writing <span class="green">fiction</span> is what they love best. They are a co-founder of an online writers’ group obsessed
+                    with all things weird, dark, and <span class="green">beautiful</span>.
                 </p>
                 <p class="aboutText">
-                    They live in St. Louis where they subsist largely on white tea and Benadryl due to being allergic to
-                    everything--including themselves--possibly from that laboratory mouse bite. Currently, they’re
-                    busy writing a novel and teaching Java and JavaScript. </p>
+                    They live in <span class="green">St. Louis</span> where they subsist largely on white tea and <span class="green">Benadryl</span> because they're allergic to
+                    everything--including themselves--possibly from that <span class="green">laboratory</span> mouse bite. Currently, they’re
+                    busy writing a <span class="green">novel</span> and teaching Java and JavaScript. </p>
             </div>
         </div>
     </div>
@@ -163,7 +179,7 @@
         <hr>
     </div>  
     <article class="aForm">
-        <h1 class="contactHeader" id="contact">Contact Me</h1>
+        <h1 class="contactHeader green" id="contact">Contact Me</h1>
         <div class="contactSection container" id="contactId">
             <div class="container" id="ff-compose"></div>
             <p class="info">Fields marked with * are required</p>
@@ -183,10 +199,10 @@
                 <br/>
                
                 
-                <input class= "formElement btn" type="submit" id="submit-form" value="Send">
+                <input class= "formElement btn form-button" type="submit" id="submit-form" value="Send">
                 
             </form>
-            <p id="sent">Status: </p>
+            <p id="sent" class="status">Status: </p>
                 
               </form>
         </div>
@@ -194,7 +210,7 @@
 
     <footer class="plain" id="footer">
 
-        <h1 class="contact">Follow Me</h1>
+        <h1 class="contact green">Follow Me</h1>
 
         <div class="social">
             <div class="social-link">
