@@ -72,11 +72,13 @@
 
 </head>
 
-<body>
+<body id="base">
+    <div class="pallet">
+    <div class="container-fluid">
 
     <div class="container-fluid myNav">
 
-        <nav class="navbar navbar-expand-lg navbar-dark myNav py-0 fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark myNav py-0">
             <a class="navbar-brand myName" id="brandName" href="index.html">sl coney</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
                 aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -98,7 +100,7 @@
                         <a class="nav-link" id="faceLink" href="https://www.facebook.com/authorslconey"><i class="fab fa-facebook"></i></a>
                     </li>
                     <li class="nav-item linkSpread">
-                        <a class="nav-link" id="twitLink" href="https://twitter.com/rockconey01"><i class="fab fa-twitter green"></i></a>
+                        <a class="nav-link" id="twitLink" href="https://twitter.com/rockconey01"><i class="fab fa-twitter"></i></a>
                     </li>
                     <li class="nav-item linkSpread">
                         <a class="nav-link" id="instaLink" href="https://www.instagram.com/s_l_coney/"><i class="fab fa-instagram"></i></a>
@@ -115,7 +117,9 @@
 
     <main>
         <div class="container publicationContainer">
-        <h1 class="pubHeader" id="shorts">Short Stories</h1>
+        
+
+        <h1 class="pubHeader green" id="shorts">Short Stories</h1>
 
         <article>
             <div class="container pubContainer">
@@ -124,7 +128,7 @@
                         <img class="bookPic" src="resources/gamut.jpg" alt="Cover of Gamut Issue 10">
                     </div>
                     <div class="col-lg-8">
-                        <h2 class="bookTitle">"Prey"</h2>
+                        <h2 class="bookTitle green">"Prey"</h2>
                         <p class="pubDetails"><em>Gamut Magazine</em> Issue 10 <br>
                             Richard Thomas, Editor.<br>
                             October, 2017 <br><br>
@@ -138,7 +142,7 @@
                             alt="Cover of Best American Mystery Stories, 2017">
                     </div>
                     <div class="col-lg-8">
-                        <h2 class="bookTitle">"Abandoned Places"</h2>
+                        <h2 class="bookTitle green">"Abandoned Places"</h2>
                         <p class="pubDetails"><em>St. Louis Noir</em> <br>
                             Scott Phillips, editor.<br>
                             2016 <br>
@@ -160,7 +164,7 @@
     </div>  
 
     <article class="aForm">
-        <h1 class="contactHeader" id="contact">Contact Me</h1>
+        <h1 class="contactHeader green" id="contact">Contact Me</h1>
         <div class="contactSection container" id="contactId">
             <div class="container" id="ff-compose"></div>
             <p class="info">Fields marked with * are required</p>
@@ -180,10 +184,10 @@
                 <br/>
                
                 
-                <input class= "formElement btn" type="submit" id="submit-form" value="Send">
+                <input class= "formElement btn form-button" type="submit" id="submit-form" value="Send">
                 
             </form>
-            <p id="sent">Status: </p>
+            <p id="sent" class="status">Status: </p>
                 
               </form>
         </div>
@@ -195,7 +199,7 @@
 
     <footer class="plain" id="footer">
 
-        <h1 class="contact">Follow Me</h1>
+        <h1 class="contact green">Follow Me</h1>
 
         <div class="social">
             <div class="social-link">
@@ -228,6 +232,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
         integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
     </script>
+    </div>
 </body>
 
 </html>
